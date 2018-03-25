@@ -1,0 +1,15 @@
+CSS Statements
+-	At - Rules
+@charset
+@import
+@media
+@font-face (define and download webfonts)
+@keyframes (keyframe animation)
+@page
+-	CSS Rule Set (aka CSS Rules, Style Rules)
+o	Consist of a selector, followed by a brace-enclosed declaration block
+e.g. *body is a selector
+		body {
+display: none;
+color: blue
+}
