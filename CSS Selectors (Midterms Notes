@@ -1,0 +1,30 @@
+CSS Selectors
+-	Selector
+o	Structure used as a condition in a CSS rule to determine which elements in the documentation tree are matched by the selector and are thus targeted by the formatting specified in the CSS rule declaration block.
+o	The matched elements are called the subjects of the selector
+-	Selector syntax
+o	Chain of one or more sequences of simple selectors separated by combinators, with one pseudo-element possibly appended to the last sequence.
+Example: div #abc > p.xyz [title] + span: first_child::after
+>, + = contributor
+After = pseudo-element
+Span:first_child::after = pseudo-class
+o	Sequence of simple selectors
+	Chain of simple selectors not separated by combinators
+	Always starts with a type sector or a universal selector
+	Cannot contain other type selectors or universal selectors
+o	Group of selectors
+	Coma- separated list of selectors representing the union of all elements
+e.g. h1, h2, h3
+-	Simple selectors
+o	Type selector (p, div, span)
+o	Universal selector (*)
+o	Attribute selector
+	[attr]
+	[attr=value]
+	[attr~=value] (class attribute)
+	[attr |= value] (language attribute)
+	[attr^=value] (start CSS3)
+	[attr$=value] (end CSS3)
+	[attr*=value] (anywhere in between CSS3)
+o	Class selector (<p class=”xyz”>)
+o	ID selector (<div id=”abc”> *for ID attribute)
