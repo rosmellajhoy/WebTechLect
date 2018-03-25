@@ -1,0 +1,45 @@
+o	pseudo-selector
+	Dynamic pseudo-class
+	link pseudo-classes
+: link
+: visited
+	user action pseudo-classes
+	: hover
+	: active
+	: focus
+	target pseudo-class
+	: target (CSS3)
+	language pseudo-class
+	: lang()
+	UI element states pseudo-class
+	: enabled (CSS3)
+	: disabled (CSS3)
+	: checked (CSS3)
+	: indeterminate (CSS3)
+	structural pseudo-class
+	: root
+	: first-child
+	: last-child
+	: only-child
+	: nth-child()
+	: nth-last-child
+	: first-of-type
+	: last-of-type
+	: only-of-type
+	: nth-of-type()
+	: nth-last-of-type()
+: empty
+*all CSS3 except first-child
+	negation
+	:not (CSS3)
+o	combinators
+	descendant combinator (whitespace ie space, tab, line feed, carriage return, form feed)
+	child combinator (>)
+	sibling combinators
+		adjacent sibling combinator (+)
+		general sibling combinator (~) CSS3
+o	pseudo-elements
+	:: first-letter	, : first-letter
+	:: first-line	, : first-line
+	:: before	, : before
+	:: after		, : after
